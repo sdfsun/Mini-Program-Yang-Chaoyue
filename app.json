@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about/about",
+    "pages/about/log/log",
+    "pages/about/test/list",
+    "pages/about/test/filter",
+    "pages/about/home/home"
+  ],
+  "usingComponents": {},
+  "tabBar": {
+    "custom": true,
+    "color": "#aaa",
+    "selectedColor": "#39b54a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/about/home/home",
+        "text": "基础"
+      },
+      {
+        "pagePath": "pages/about/home/home",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/about/home/home",
+        "text": "扩展"
+      },
+      {
+        "pagePath": "pages/about/home/home",
+        "text": "关于"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ColorUI",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  }
+  
+  
+}

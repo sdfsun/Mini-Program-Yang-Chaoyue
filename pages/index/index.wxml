@@ -1,0 +1,12 @@
+<view class='cu-custom' style="height:{{CustomBar}}px;">
+  <view class="cu-bar fixed bg-gradual-pink" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+    <view class='content' style='top:{{StatusBar}}px;'>相貌平平杨超越</view>
+  </view>
+</view>
+
+<swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{4}}" wx:key class="{{cardCur==index?'cur':''}}">
+    <view class='bg-img shadow-blur' style="background-image:url(../../images/swiper/{{index+1}}.jpg)"></view>
+  </swiper-item>
+</swiper>
+
